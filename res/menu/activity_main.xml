@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/back_to_start"
+        android:title="Go back to start"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/image_attribution"
+        android:title="Image credits"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

@@ -1,0 +1,2274 @@
+<uktrees>
+    <node id="root" >
+        <terminal_node>false</terminal_node>
+        <question>
+            <text>Leaves needle-like or scale-like and often overlapping</text>
+            <nextnode>key1_step1</nextnode>
+            <image>pine</image>
+        </question>
+        
+        <question>
+            <text>Leaves not needle-like, scale-like or overlapping </text>
+            <nextnode>masterKey_step2</nextnode>
+            <image>broad</image>
+        </question>
+    </node>
+    
+      
+        <node id="masterKey_step2" >
+            <terminal_node>false</terminal_node>    
+            <question>
+                <text>Leaves in pairs, opposite each other on shoots</text>
+                <nextnode>key2_step1</nextnode>
+                <image>masterkey_step2_1</image>
+                <image_attribution></image_attribution>
+            </question>
+            
+            <question>
+                <text>Leaves alternate on shoots</text>
+                <nextnode>masterKey_step3</nextnode>
+                <image>masterkey_step2_2</image>
+                <image_attribution>gracey4u  http://www.flickr.com/people/15003318@N07/</image_attribution>
+            </question>
+        </node>
+        
+        <node id="masterKey_step3" >
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves divided into separate leaflets (compund leaf)http://en.wikipedia.org/wiki/Leaflet</text>
+                <nextnode>key3_step1</nextnode>
+                <image>masterkey_step3_1</image>
+                <image_attribution>wikipedia.org/wiki/User:George_Shuklin</image_attribution>
+            </question>
+            
+            <question>
+                <text>Leaves with one blade, possibly indented into lobes, but not divided into leaflets</text>
+                <nextnode>masterKey_step4</nextnode>
+                <image>masterkey_step3_2</image>
+                <image_attribution>http://commons.wikimedia.org/wiki/User:Ischa1</image_attribution>
+            </question>
+        </node>
+        
+          <node id="masterKey_step4" >
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves evergreen</text>
+                <nextnode>key4_step1</nextnode>
+                <image>masterkey_step4_1</image>
+                <image_attribution>http://commons.wikimedia.org/wiki/User:Rosser1954</image_attribution>
+            </question>
+            
+            <question>
+                <text>Leaves deciduous</text>
+                <nextnode>masterKey_step5</nextnode>
+                <image>masterkey_step4_2</image>
+                <image_attribution>http://en.wikipedia.org/wiki/File:Acer_pseudoplatanus_002.jpg</image_attribution>
+            </question>
+        </node>
+        
+        <node id="masterKey_step5" >
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Fruits fleshy or juicy</text>
+                <nextnode>key5_step1</nextnode>
+                <image>masterkey_step5_1</image>
+                <image_attribution>http://www.flickr.com/photos/frield/</image_attribution>
+            </question>
+            
+            <question>
+                <text>Fruits dry</text>
+                <nextnode>key6_step1</nextnode>
+                <image>masterkey_step5_2</image>
+                <image_attribution>http://www.flickr.com/photos/olibac/</image_attribution>
+            </question>
+        </node>
+        
+        <node id="key1_step1">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>All leaves scale-like, usually pressed against the twig </text>
+                <nextnode>key1_step2</nextnode>
+                <image>key1_step1_1</image>
+                <image_attribution>http://www.flickr.com/people/13389908@N03/</image_attribution>
+            </question>
+            
+            <question>
+                <text>All leaves needle-like, usually spread widely apart</text>
+                <nextnode>key1_step6</nextnode>
+                <image>key1_step1_2</image>
+                <image_attribution>?</image_attribution>
+            </question>
+            
+            <question>
+                <text>Some leaves scale-like, others needle-like</text>
+                <nextnode>key1_step14</nextnode>
+                <image>key1_step1_3</image>
+                <image_attribution>http://en.wikipedia.org/wiki/User:MPF</image_attribution>
+            </question>
+        </node>
+        
+        <node id="key1_step2">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Scale-leaves at least 30mm long, rigid and sharp-edged</text>
+                <nextnode>monkey_puzzle</nextnode>
+                <image>ic_launcher</image>
+                <image>key1_step2_1</image>
+                <image_attribution>http://en.wikipedia.org/wiki/User:Nova</image_attribution>
+            </question>
+            
+            <question>
+                <text>Scale-leaves less than 30mm long, not rigid or sharp</text>
+                <nextnode>key1_step3</nextnode>
+                <image>key1_step2_2</image>
+                <image_attribution>http://www.flickr.com/people/13389908@N03/</image_attribution>
+            </question>
+  		</node>
+            
+        
+          <node id="key1_step3">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Deciduous tree; foliage is wispy; pink or white flowers </text>
+                <nextnode>tamarisks</nextnode>
+                <image>key1_step3_1</image>
+                <image_attribution>http://www.flickr.com/photos/wlcutler/</image_attribution>
+            </question>
+            
+            <question>
+                <text>Evergreen tree with cones; foliage is dense</text>
+                <nextnode>key1_step4</nextnode>
+                <image>key1_step3_2</image>
+                <image_attribution>http://www.flickr.com/photos/tony_rodd/</image_attribution>
+            </question>
+  		</node>
+  		
+        <node id="key1_step4">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Cone is egg-shaped with overlapping scales, eventually wide- spreading like petals of a flower; crushed foliage smells of pineapple.</text>
+                <nextnode>western_red_cedar</nextnode>
+                <image>key1_step4_1</image>
+                <image_attribution>http://commons.wikimedia.org/wiki/User:Wsiegmund</image_attribution>
+            </question>
+            
+            <question>
+                <text>Cone is egg-or ball-shaped, scales meet at edges and don’t overlap, scales don’t become wide-spreading; crushed foliage doesn’t smell of pineapple.</text>
+                <nextnode>key1_step5</nextnode>
+                <image>key1_step4_2</image>
+                <image_attribution>Neil Horner</image_attribution>
+            </question>
+  		</node>
+  		
+        
+        <node id="key1_step5">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Cone is egg-shaped with more than 15 scales meeting edge to edge; bark is very thick, with visible fibres, and is rather soft or spongy.</text>
+                <nextnode>wellingtonia</nextnode>
+                <image>key1_step5_1</image>
+                <image_attribution>www.flickr.com/photos/35142635@N05/</image_attribution>
+                <image_src>http://www.flickr.com/photos/35142635@N05/7034599183/</image_src>
+            </question>
+            
+            <question>
+                <text>Cone is ball-shaped, with fewer than 10 scales; bark is hard.</text>
+                <nextnode>cypresses</nextnode>
+                <image>key1_step5_2</image>
+                <image_attribution>http://www.flickr.com/photos/tony_rodd/</image_attribution>
+                <image_src>http://www.flickr.com/photos/tony_rodd/818716638/</image_src>
+            </question>
+  		</node>
+  		
+        <node id="key1_step6">
+            <terminal_node>false</terminal_node>
+
+            <question>
+				<text>Needles are in two flat, parallel rows, at least on the short shoots growing off longer ones; fruit is scarlet and berry-like</text>
+                <nextnode>yew</nextnode>
+                <image>key1_step6_1</image>
+            </question>
+            
+            <question>
+                <text>All the needles are in clusters or are parted on either side of shoot, but not in flat rows; fruit is a woody cone.</text>
+                <nextnode>key1_step7</nextnode>
+                <image>key1_step6_2</image>
+                <image_attribution>http://www.flickr.com/photos/pugno_muliebriter/</image_attribution>
+                <image_src>http://www.flickr.com/photos/pugno_muliebriter/1079415396/</image_src>
+            </question>
+  		</node>
+          
+        <node id="key1_step7">
+            <terminal_node>false</terminal_node>
+
+            <question>
+				<text>Needles are all on their own at their position on the shoot.</text>
+                <nextnode>key1_step8</nextnode>
+                <image>key1_step7_1</image>
+                <image_attribution>http://www.flickr.com/photos/artnow/</image_attribution>
+                <image_src>http://www.flickr.com/photos/artnow/379321129/</image_src>
+            </question>
+            
+            <question>
+				<text>Most needles grouped around the shoot, in pairs or bundles of 2 or more.</text>
+                <nextnode>key1_step10</nextnode>
+                <image>key1_step7_2</image>
+                <image_attribution>http://www.flickr.com/photos/pugno_muliebriter/</image_attribution>
+                <image_src>http://www.flickr.com/photos/pugno_muliebriter/1079415396/</image_src>
+            </question>
+  		</node>          
+          
+        <node id="key1_step8">
+            <terminal_node>false</terminal_node>
+
+            <question>
+				<text>Cones stand upright on branches; needles are attached by a sucker-like base.</text>
+                <nextnode>firs</nextnode>
+                <image>key1_step8_1</image>
+                <image_attribution>http://www.flickr.com/photos/amasc/</image_attribution>
+                <image_src>http://www.flickr.com/photos/amasc/442329032/</image_src>
+            </question>
+            
+            <question>
+				<text>Cones hang downwards from branches; the base of the needles are not sucker-like.</text>
+                <nextnode>key1_step9</nextnode>
+                <image>key1_step8_2</image>
+                <image_attribution>http://www.flickr.com/photos/lynkos/</image_attribution>
+                <image_src>http://www.flickr.com/photos/lynkos/3184980849/</image_src>
+            </question>
+  		</node>               
+ 
+        
+        <node id="key1_step9">
+            <terminal_node>false</terminal_node>
+
+            <question>
+				<text>Needles leave behind their peg-like bases after falling.</text>
+                <nextnode>spruces</nextnode>
+                <image>key1_step9_1</image>
+                <img_species>Norway spruce</img_species>
+                <image_attribution>http://www.flickr.com/photos/lynkos/</image_attribution>
+                <image_src>http://www.flickr.com/photos/lynkos/3184980849/</image_src>
+            </question>
+            
+            <question>
+				<text>Needles leave behind their cushion-like bases after falling.</text>
+                <nextnode>hemlock_spruces</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>    
+  		
+        <node id="key1_step10">
+            <terminal_node>false</terminal_node>
+
+            <question>
+				<text>Most needles are in bundles of 2–5.</text>
+                <nextnode>key1_step11</nextnode>
+                <image>key1_step10_1</image>
+                <image_src>http://www.flickr.com/photos/tangentier/245451546/</image_src>
+                <image_attribution>http://www.flickr.com/photos/tangentier/</image_attribution>
+            </question>
+            
+            <question>
+				<text>Most needles are arranged around the shoot in clusters of 3, 10 or more, rarely in pairs.</text>
+                <nextnode>key1_step12</nextnode>
+                <image>key1_step10_2</image>
+                <image_src>http://en.wikipedia.org/wiki/File:Cedrus_atlantica2.jpg</image_src>
+                <image_attribution>J.F.Gaffard</image_attribution>
+            </question>
+  		</node>    
+  		
+        <node id="key1_step11">
+            <terminal_node>false</terminal_node>
+
+            <question>
+				<text>Needles in bundles of 2</text>
+                <nextnode>pines_2_needled</nextnode>
+                <image>key1_step11_1</image>
+                <image_src>http://www.geograph.org.uk/photo/739403</image_src>
+                <image_attribution>Paul Dickson</image_attribution>
+            </question>
+            
+            <question>
+                <text>Needles in bundles of 3</text>
+                <nextnode>pines_3_needled</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+             <question>
+                <text>Needles in bundles of 5</text>
+                <nextnode>pines_5_needled</nextnode>
+                <image>key1_step11_3</image>
+                <image_src>http://commons.wikimedia.org/wiki/File:Pinus_flexilis_needles.jpg</image_src>
+                <image_attribution>United States Department of Agriculture</image_attribution>
+            </question>
+  		</node>    
+  		
+        <node id="key1_step12">
+            <terminal_node>false</terminal_node>
+
+            <question>
+				<text>Needles on all shoots are arranged in rings of 3 going around the shoot, or occasionally in pairs</text>
+                <nextnode>junipers</nextnode>
+                <image>key1_step12_1</image>
+                <image_attribution>http://en.wikipedia.org/wiki/User:MPF</image_attribution>
+            </question>
+            
+            <question>
+                <text>Needles on short shoots, in clusters of 10 or more</text>
+                <nextnode>key1_step13</nextnode>
+                <image>key1_step12_2</image>
+                <image_src>http://de.fotopedia.com/items/flickr-2268973789</image_src>
+                <image_attribution>http://www.flickr.com/photos/13389908@N03</image_attribution>
+            </question>
+  		</node>    
+  		
+        <node id="key1_step13">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>A deciduous tree; the cones are egg-shaped</text>
+                <nextnode>larches</nextnode>
+                <image>key1_step13_1</image>
+                <image_src>http://www.geograph.ie/photo/2484266</image_src>
+                <image_attribution>Albert Bridge - http://www.geograph.ie/profile/5835</image_attribution>
+            </question>
+            
+            <question>
+                <text>An evergreen tree; the cones are barrel-shaped</text>
+                <nextnode>cedars</nextnode>
+                <image>key1_step13_2</image>
+                <image_src>http://de.fotopedia.com/items/flickr-2268973789</image_src>
+                <image_attribution>http://www.flickr.com/photos/13389908@N03</image_attribution>
+            </question>
+  		</node>   
+       
+        <node id="key1_step14">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves of main shoots are scale-like, leaves of short shoots are needle-like, up to 20mm long, arranged in 2 rows; foliage doesn’t smell unpleasant</text>
+                <nextnode>coast_redwood</nextnode>
+                <image>key1_step14_1</image>
+		<image_attribution>http://www.flickr.com/photos/brewbooks</image_attribution>
+		<image_src>http://www.flickr.com/photos/brewbooks/6067921684/<image_src>
+            </question>
+            
+            <question>
+                <text>Leaves mostly scale-like; those towards the tips of shoots are needle-like, in opposite pairs, 5–6mm long; crushed foliage smells unpleasant</text>
+                <nextnode>junipers</nextnode>
+                <image>key1_step14_2</image>
+                <image_attribution>http://en.wikipedia.org/wiki/User:MPF</image_attribution>
+            </question>
+  		</node>   
+          
+        <node id="key2_step1">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are divided palmately forming individual leaflets. Leaflets extend from the leaf petiole (stalk)</text>
+                <nextnode>horse_chestnuts</nextnode>
+                <image>key2_step1_1</image>
+		<image_attribution>http://www.flickr.com/photos/thurm/2754607032/<image_attribution>
+            </question>
+            
+            <question>
+                <text>Leaves pinnately divided into separate leaflets, the leaflets in two rows on the stalk</text>
+                <nextnode>key2_step2</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are sometimes lobed, but are not divided into leaflets</text>
+                <nextnode>key2_step5</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>   
+          
+        <node id="key2_step2">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Small trees with ridged, corky bark; the fruit is a berry</text>
+                <nextnode>elder</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Tall trees with smooth or slightly wrinkled bark; fruits are dry and wing-shaped</text>
+                <nextnode>key2_step3</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>
+
+        <node id="key2_step3">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Twigs are clearly flattened where the buds or leaves are attached; leaves are hairy on the underside; one fruit per stalk</text>
+                <nextnode>key2_step4</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Twigs are not flattened where the buds or leaves are attached; leaves are hairless on the underside; fruits in pairs on the stalks</text>
+                <nextnode>ashleaf_maple</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>   
+  		
+        <node id="key2_step4">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers have no petals; winter buds are black</text>
+                <nextnode>ash</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers have narrow white petals; winter buds are grey or brown</text>
+                <nextnode>manna_ash</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>  
+  		
+        <node id="key2_step5">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are deeply palmately lobed; fruits are wing-shaped and in pairs</text>
+                <nextnode>key2_step9</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are not lobed or are only very shallowly lobed; fruit is either a woody capsule, a berry or a long, narrow pod</text>
+                <nextnode>key2_step6</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>   
+  		
+        <node id="key2_step6">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaf edges are toothed</text>
+                <nextnode>spindles</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaf edges are not toothed</text>
+                <nextnode>key2_step7</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>   
+
+        <node id="key2_step7">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>An evergreen tree, leaves are usually bluish-green and smell of eucalyptus when crushed; bark is usually shredding or flaking</text>
+                <nextnode>eucalyptus</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>A deciduous tree, leaves are pale or bright green and don’t smell when crushed; bark is not shredding</text>
+                <nextnode>key2_step8</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>  
+
+        <node id="key2_step8">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>A tall tree up to 20m; leaves are 10–25cm long; flowers are 5cm or more across; fruit is a long, narrow pod that remains after the leaves fall</text>
+                <nextnode>indian_bean_tree</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>A small tree to 8m; leaves are 4–10cm long; flowers are 4mm across; fruit is a red berry</text>
+                <nextnode>cornelian_cherry</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>  
+  		
+        <node id="key2_step9">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves with 3-13 lobes. If 5-lobed, then any teeth present aren’t small, coarse, round-tipped and numerous, or flowers/fruits don’t hang in tails</text>
+                <nextnode>non_maple_sycamore</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves 5-lobed with many small, coarse, round-tipped teeth; flowers/fruits in hanging tails</text>
+                <nextnode>sycamore</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node> 
+   
+        <node id="key3_step1">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves divided into 3 leaflets</text>
+                <nextnode>laburnums</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves divided into more than 3 leaflets</text>
+                <nextnode>key3_step2</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node> 
+  		
+        <node id="key3_step2">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Twigs are thick and densely covered with velvety hairs; flower heads (and later the seed heads) are dense, cone-shaped and hairy</text>
+                <nextnode>stags_horn_sumach</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Twigs not velvety; flowers and fruits are not in hairy, cone-shaped heads</text>
+                <nextnode>key3_step3</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node> 
+  		
+        <node id="key3_step3">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Twigs have a pair of thorns at the base of each leaf</text>
+                <nextnode>false_acacia</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Twigs have no spines or thorns</text>
+                <nextnode>key3_step4</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node> 
+
+        <node id="key3_step4">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Twigs have distinctive Y-shaped scars where leaves have fallen; cut twigs leak latex; flowers are in catkins or clusters of 1–5</text>
+                <nextnode>walnuts</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaf scars are not Y-shaped; cut twigs don’t leak latex; flowers are numerous and in clusters</text>
+                <nextnode>key3_step5</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>   
+  		
+        <node id="key3_step5">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaflets are not lobed, they are not foul-smelling; the fruit is a pod</text>
+                <nextnode>pagoda_tree</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaflets have a few teeth or lobes in the lower half only and they are foul-smelling when crushed; the fruit is a papery, winged seed</text>
+                <nextnode>tree_of_heaven</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaflets are toothed or lobed, not foul-smelling; the fruit is a papery capsule</text>
+                <nextnode>pride_of_india</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaflets are toothed at least in the upper half and are not foul-smelling; fruit is juicy and berry-like</text>
+                <nextnode>key3_step6</nextnode>
+                <image>ic_launcher</image>
+            </question>
+  		</node>   
+  		
+        <node id="key3_step6">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Lower part of the leaf is divided into 1–4 pairs of leaflets, the upper part is lobed in places but not completely divided</text>
+                <nextnode>service_trees</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are completely divided into 6 or more pairs of leaflets</text>
+                <nextnode>key3_step7</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>
+          
+        <node id="key3_step7">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Ripe fruits are orange-red to vermillion-red or occasionally yellow, with yellow pulp</text>
+                <nextnode>rowan_orange</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Ripe fruits are white to pink or crimson, with white pulp</text>
+                <nextnode>rowan_white</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>      
+
+        <node id="key4_step1">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves have spiny edges</text>
+                <nextnode>key4_step2</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves sometimes have toothed edges but are not spiny</text>
+                <nextnode>key4_step3</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key4_step2">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are white- or green-felted on the underside; fruit is an acorn; flowers are green, the male flowers are in slender catkins</text>
+                <nextnode>evergreen_oak</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are paler but hairless on the underside; fruit is a berry; flowers are white and in small clusters</text>
+                <nextnode>hollies</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key4_step3">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are aromatic when crushed</text>
+                <nextnode>key4_step4</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are not aromatic when crushed</text>
+                <nextnode>key4_step5</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key4_step4">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves smell of eucalyptus when crushed, or rarely of lemon, the edges are flat</text>
+                <nextnode>eucalyptus</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves smell of almonds when crushed; the edges are rolled under</text>
+                <nextnode>cherry_laurel</nextnode>
+                <image>ic_launcher</image>
+            </question>
+                         
+            <question>
+                <text>Leaves smell of bay when crushed, the edges are wavy</text>
+                <nextnode>bay</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key4_step5">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are densely covered with rusty brown or grey hairs on the underside</text>
+                <nextnode>key4_step6</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are hairless or have white hairs on the underside</text>
+                <nextnode>key4_step7</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key4_step6">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers on their own</text>
+                <nextnode>strawberry_tree</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers in clusters</text>
+                <nextnode>rhododenrons</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>        
+
+        <node id="key4_step7">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers are roughly 1cm long, urn-shaped and in small drooping clusters; the fruit is a warty, matt-red berry </text>
+                <nextnode>strawberry_tree</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers are 3–5.5cm long, bell-shaped and in large rounded clusters; the fruit is a capsule </text>
+                <nextnode>rhododenrons</nextnode>
+                <image>ic_launcher</image>
+            </question>
+
+   			<question>
+                <text>Flowers are 1–1.5cm across and flat, with up to 100 in erect spikes; the fruit is a smooth, shiny black berry</text>
+                <nextnode>portugal_laurel</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers are less than 1cm across, flat and in clusters; the fruit is a red, orange or blue-black berry</text>
+                <nextnode>cotoneasters</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>
+        
+        <node id="key5_step1">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are fan-shaped with a central notch</text>
+                <nextnode>maidenhair_tree</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>leaves are not fan shaped</text>
+                <nextnode>key5_step2</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>   
+
+        <node id="key5_step2">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>At least some leaves are lobed</text>
+                <nextnode>key5_step3</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are undivided, the edges may be toothed but not lobed</text>
+                <nextnode>key5_step6</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key5_step3">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are palmately lobed, distinctly bristly to the touch on the upper side</text>
+                <nextnode>key5_step4</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are pinnately lobed, smooth or softly hairy on the upper side</text>
+                <nextnode>key5_step5</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>   
+        
+        <node id="key5_step4">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Some leaves are lobed and all are toothed; the fruit resembles a raspberry, red or purple when ripe</text>
+                <nextnode>mulberry</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>All leaves are lobed; the fruit is pear-shaped and brownish purple when ripe</text>
+                <nextnode>fig</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key5_step5">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Twigs are thorny</text>
+                <nextnode>hawthorns</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Twigs are not thorny</text>
+                <nextnode>whitebeams</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+
+        <node id="key5_step6">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are not toothed</text>
+                <nextnode>cotoneasters</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are toothed</text>
+                <nextnode>key5_step7</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key5_step7">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers and fruits are in cylinder- or cone-shaped spikes</text>
+                <nextnode>key5_step8</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers and fruits are on their own, in pairs or in clusters</text>
+                <nextnode>key5_step9</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+                
+        <node id="key5_step8">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers are less than 10mm in diameter, the petals are broadly oval; the fruit is smooth at the apex</text>
+                <nextnode>bird_cherries</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers are more than 10mm in diameter, the petals are narrow and strap-shaped; the fruit is crowned with the withered sepals</text>
+                <nextnode>amelanchier</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+                        
+        <node id="key5_step9">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers have 1 style; sepals are absent on the ripe fruit; 1 seed</text>
+                <nextnode>key5_step10</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers have 2 or more styles; sepals are usually present on the ripe fruit; 2 or more seeds</text>
+                <nextnode>key5_step14</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key5_step10">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Twigs are very thorny</text>
+                <nextnode>blackthorn</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Twigs are not thorny or have only occasional thorns</text>
+                <nextnode>key5_step11</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+                              
+        <node id="key5_step11">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Fruit is less than 2cm long; the bark often has distinctive horizontal bands of pores</text>
+                <nextnode>key7_step1</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Fruit is more than 2cm long; the bark doesn’t have horizontal bands of pores</text>
+                <nextnode>key5_step12</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+                              
+        <node id="key5_step12">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Fruit has a velvety skin, even when fully ripe</text>
+                <nextnode>peach_almond</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Fruit has a smooth skin, often with a greyish waxy bloom on the skin</text>
+                <nextnode>key5_step13</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+                              
+        <node id="key5_step13">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Young twigs are green, smooth and glossy</text>
+                <nextnode>cherry_plum</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Young twigs are brown or grey, dull and often hairy</text>
+                <nextnode>plum</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key5_step14">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers and fruits in clusters of 11 or more, with their stalks not arising from a central point</text>
+                <nextnode>key5_step15</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers and fruits in clusters of 10 or fewer, with their stalks all arising from a central point</text>
+                <nextnode>key5_step16</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key5_step15">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Twigs are thorny or spiny, sometimes with very few spines</text>
+                <nextnode>cockspur_thorns</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Twigs are not thorny</text>
+                <nextnode>whitebeams</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key5_step16">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Fruit is usually pear-shaped, with gritty flesh; styles are not joined together at the base</text>
+                <nextnode>pears</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Fruit is usually apple-shaped, the flesh is not gritty; styles are joined together at the base</text>
+                <nextnode>key5_step17</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+                 
+        <node id="key5_step17">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Fruits less than 4cm long</text>
+                <nextnode>crab_apple</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Fruits more than 4cm long</text>
+                <nextnode>apples</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+                                           
+        <node id="key6_step1">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are lobed</text>
+                <nextnode>key6_step2</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are not lobed</text>
+                <nextnode>key6_step6</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+
+        <node id="key6_step2">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are square or notched at the tip; the flowers are up to 5cm long and are on their own</text>
+                <nextnode>tulip_tree</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are rounded or pointed at the tip; the flowers are much smaller, in clusters or catkins</text>
+                <nextnode>key6_step3</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key6_step3">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are pinnately lobed; the fruit is an acorn</text>
+                <nextnode>oaks</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are palmately or irregularly lobed; the fruits form a catkin or globe-shaped head</text>
+                <nextnode>key6_step4</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+       
+        <node id="key6_step4">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are felted with white or grey hairs on the underside</text>
+                <nextnode>white_poplar</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are smooth or sparsely hairy on the underside</text>
+                <nextnode>key6_step5</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+
+        <node id="key6_step5">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Bark is flaking in large patches; the fruits form a soft, hairy ball like a pom-pom</text>
+                <nextnode>plane</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Bark is fissured, not flaking; the fruits form a stiff, spiky ball like the head of a mace</text>
+                <nextnode>sweet_gum</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+
+        <node id="key6_step6">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Bark is silver or white</text>
+                <nextnode>key6_step7</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Bark is greyish or brown</text>
+                <nextnode>key6_step8</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key6_step7">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Tree is weeping, the twigs and smaller branches hang loosely; the bark has black, diamond-shaped splits</text>
+                <nextnode>silver_birch</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Tree is not weeping; the bark is often peeling but doesn’t have black diamond-shaped splits</text>
+                <nextnode>white_birch</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>
+        
+        <node id="key6_step8">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are more than 3 times as long as they are wide</text>
+                <nextnode>key6_step9</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are less than 3 times as long as they are wide</text>
+                <nextnode>key6_step11</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key6_step9">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaf edges are coarsely toothed, the teeth end in a softly spiny tip; the seeds are enclosed in a softly spiny husk</text>
+                <nextnode>sweet_chesnut</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaf edges are not indented but may have small, fine teeth; the seeds have a plume of silky hairs at one end</text>
+                <nextnode>key6_step10</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key6_step10">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Tree is weeping, the smaller branches hang downwards, often almost to the ground</text>
+                <nextnode>weeping_willow</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Tree is not weeping</text>
+                <nextnode>willows</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+
+        <node id="key6_step11">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Fruit is a small, woody cone, they are numerous and stay on the tree until spring</text>
+                <nextnode>Alders</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Fruit is not a woody cone</text>
+                <nextnode>key6_step12</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key6_step12">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaf edges aren’t indented</text>
+                <nextnode>key6_step13</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaf edges are toothed, the teeth may be very small</text>
+                <nextnode>key6_step15</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaf are double toothed</text>
+                <nextnode>key6_step16</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+
+        <node id="key6_step13">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are almost circular; flowers are pea-like and found on the trunk and main branches as well as the twigs</text>
+                <nextnode>judas_tree</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are oval or egg-shaped; flowers aren’t pea-like</text>
+                <nextnode>key6_step14</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+
+        <node id="key6_step14">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves are flat and 15cm or more in length; the flowers have 5 or more large petals that are white or pink; the fruit is cone-like but not woody</text>
+                <nextnode>magnolias</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves are up to 9cm long with wavy edges; the flowers are greenish and don’t have petals; the fruit has a spiny husk</text>
+                <nextnode>beech</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+
+        <node id="key6_step15">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers and fruits are in clusters suspended beneath an oblong, wing-shaped bract; the leaves are roughly heart-shaped</text>
+                <nextnode>limes</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers and fruits are in cylindrical catkins; the leaves are oval to oblong</text>
+                <nextnode>willows</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>         
+
+        <node id="key6_step16">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers are in small clusters; the fruit is a seed surrounded by a papery wing</text>
+                <nextnode>elms</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers are in slender, hanging catkins; the fruit is a nut</text>
+                <nextnode>key6_step17</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>         
+        
+        <node id="key6_step17">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves hairy on both surfaces; fruits are solitary or in clusters of a few; each nut is wrapped in a leafy sheath</text>
+                <nextnode>hazels</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves hairy only on veins on the underside; fruits are in a hanging catkin, paired nuts are attached to a large, 3-lobed, bract</text>
+                <nextnode>hornbeam</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node>  
+        
+        <node id="key7_step1">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers or fruits arranged in roughly cylinder-shaped spikes, 11 or more per spike</text>
+                <nextnode>key7_step1</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers or fruits on their own or in clusters of 10 or fewer</text>
+                <nextnode>key7_step3</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+
+        <node id="key7_step2">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Leaves hairless or with white hairs along midrib, sometimes only where veins join; flowers 10-15mm across</text>
+                <nextnode>bird_cherries</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Leaves have rusty or orange hairs underneath, each side of the midrib; flowers 8mm across</text>
+                <nextnode>rum_cherry</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+    
+        <node id="key7_step3">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flower and leaf stalks densely hairy; leaf edges have pointed teeth</text>
+                <nextnode>key7_step4</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flower and leaf stalks hairless or almost hairless; leaf edges have pointed teeth, often with thin, bristle-like tips</text>
+                <nextnode>key7_step5</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flower and leaf stalks hairless; leaf edges have blunt or round teeth, often with a claw-shaped gland at the tip</text>
+                <nextnode>key7_step6</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key7_step4">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Sepal edges are toothed; leaves hairless on the upper side with hairy veins on the underside</text>
+                <nextnode>spring_cherries</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Sepal edges not toothed; leaves hairy on both surfaces</text>
+                <nextnode>fuji_cherry</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key7_step5">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Bark on trunk and branches very glossy, purplish-brown and peeling in thin, copper-brown strips</text>
+                <nextnode>tibetan_cherry</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Bark mostly dull grey or brown, sometimes peeling to reveal shiny red-brown on the trunk</text>
+                <nextnode>japanese_cherries</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key7_step6">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers less than 20mm across, on stalks up to 15mm long, not arising from a central point; fruit less than 10mm long</text>
+                <nextnode>st_lucie_cherries</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers more than 20mm across, on stalks more than 15mm long, arising from a central point; fruit more than 10mm long</text>
+                <nextnode>key7_step7</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+        <node id="key7_step7">
+            <terminal_node>false</terminal_node>
+
+            <question>
+                <text>Flowers cup-shaped; leaves dull on the upper side, sparsely hairy on the underside</text>
+                <nextnode>wild_cherry</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            
+            <question>
+                <text>Flowers saucer-shaped; leaves glossy on the upper side, hairless on the underside</text>
+                <nextnode>morello_cherry</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+    
+             
+        <!-- terminal nodes --> 
+
+      <node id="coast_redwood">
+          <terminal_node>true</terminal_node>
+          <name>Coast redwood</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/coast-redwood/index.html</link>
+        </node>
+
+      <node id="cedars">
+          <terminal_node>true</terminal_node>
+          <name>Cedars</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cedar/index.html</link>
+        </node>
+
+      <node id="wild_cherry">
+          <terminal_node>true</terminal_node>
+          <name>Wild cherry</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cherries/wild/index.html</link>
+        </node>
+
+      <node id="morello_cherry">
+          <terminal_node>true</terminal_node>
+          <name>Morello cherry</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cherries/morello/index.html</link>
+        </node>
+
+
+      <node id="tibetan_cherry">
+          <terminal_node>true</terminal_node>
+          <name>Tibetan cherry</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cherries/tibetan/index.html</link>
+        </node>
+
+      <node id="japanese_cherries">
+          <terminal_node>true</terminal_node>
+          <name>Japanese cherries</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cherries/japanese/index.html</link>
+        </node>
+
+      <node id="spring_cherries">
+          <terminal_node>true</terminal_node>
+          <name>Spring cherries</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cherries/spring/index.html</link>
+        </node>
+
+
+      <node id="fuji_cherry">
+          <terminal_node>true</terminal_node>
+          <name>Fuji cherry</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cherries/fuji/index.html</link>
+        </node>
+
+
+      <node id="bird_cherries">
+          <terminal_node>true</terminal_node>
+          <name>Bird cherries</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cherries/bird/index.html</link>
+        </node>
+
+      <node id="rum_cherry">
+          <terminal_node>true</terminal_node>
+          <name>Rum cherry</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cherries/rum/index.html</link>
+        </node>
+
+      <node id="hazels">
+          <terminal_node>true</terminal_node>
+          <name>Hazels</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/f-to-j/hazel/index.html</link>
+        </node>
+
+
+      <node id="hornbeam">
+          <terminal_node>true</terminal_node>
+          <name>Hornbeam</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/f-to-j/hornbeam/index.html</link>
+        </node>
+
+
+      <node id="elms">
+          <terminal_node>true</terminal_node>
+          <name>Limes</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/elm/index.html</link>
+        </node>
+
+      <node id="limes">
+          <terminal_node>true</terminal_node>
+          <name>Limes</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/l-to-o/lime/index.html</link>
+        </node>
+
+      <node id="magnolias">
+          <terminal_node>true</terminal_node>
+          <name>Magnolias</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/l-to-o/magnolia/index.html</link>
+        </node>
+
+      <node id="beech">
+          <terminal_node>true</terminal_node>
+          <name>Beech</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/a-to-b/beech/index.html</link>
+        </node>
+
+      <node id="judas_tree">
+          <terminal_node>true</terminal_node>
+          <name>Judas tree</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/f-to-j/judas-tree/index.html</link>
+        </node>
+
+
+      <node id="alders">
+          <terminal_node>true</terminal_node>
+          <name>Alders</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/a-to-b/alder/index.html</link>
+        </node>
+
+
+      <node id="weeping_willow">
+          <terminal_node>true</terminal_node>
+          <name>Weeping willow</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/williow-weeping/index.html</link>
+        </node>
+
+      <node id="willows">
+          <terminal_node>true</terminal_node>
+          <name>Willows</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/willow/index.html</link>
+        </node>
+
+       <node id="sweet_chetnut">
+          <terminal_node>true</terminal_node>
+          <name>Sweet chestnut</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/sweet-chestnut/index.html</link>
+        </node>
+
+       <node id="white_birch">
+          <terminal_node>true</terminal_node>
+          <name>White birch</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/a-to-b/birch-white/index.html</link>
+        </node>
+
+       <node id="silver_birch">
+          <terminal_node>true</terminal_node>
+          <name>Silver birch</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/a-to-b/birch-silver/index.html</link>
+        </node>
+
+       <node id="sweet_gum">
+          <terminal_node>true</terminal_node>
+          <name>Sweet gum</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/sweet-gum/index.html</link>
+        </node>
+
+       <node id="plane">
+          <terminal_node>true</terminal_node>
+          <name>Plane</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/p-to-r/plane/index.html</link>
+        </node>
+
+       <node id="white_poplar">
+          <terminal_node>true</terminal_node>
+          <name>White poplar</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/p-to-r/poplar-white/index.html</link>
+        </node>
+
+       <node id="tulip_tree">
+          <terminal_node>true</terminal_node>
+          <name>Tulip tree</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/tulip/index.html</link>
+        </node>
+
+
+       <node id="apples">
+          <terminal_node>true</terminal_node>
+          <name>Apples</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/a-to-b/apple/index.html</link>
+        </node>
+
+       <node id="pears">
+          <terminal_node>true</terminal_node>
+          <name>Pears</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/p-to-r/pear/index.html</link>
+        </node>
+
+       <node id="cockspur_thorns">
+          <terminal_node>true</terminal_node>
+          <name>Cockspur_thorns</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cockspur-thorn/index.html</link>
+        </node>
+ 
+       <node id="peach_almond">
+          <terminal_node>true</terminal_node>
+          <name>Peach and almond</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/p-to-r/peach-and-almond/index.html</link>
+        </node>
+
+       <node id="blackthorn">
+          <terminal_node>true</terminal_node>
+          <name>Blackthorn</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/a-to-b/blackthorn/index.html</link>
+        </node>
+
+
+       <node id="amelanchier">
+          <terminal_node>true</terminal_node>
+          <name>Amelanchier</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/a-to-b/amelanchier/index.html</link>
+        </node>
+
+       <node id="bird_cherries">
+          <terminal_node>true</terminal_node>
+          <name>Bird cherries</name>
+          <image></image>
+          <description></description>
+          <latin_name>Bird cherry(Prunus padus), Virginian bird cherry(Prunus virginiana)</latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cherries/bird/index.html</link>
+        </node>
+
+       <node id="hawthorns">
+          <terminal_node>true</terminal_node>
+          <name>hawthorns</name>
+          <image></image>
+          <description></description>
+          <latin_name>Crataegus species</latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/f-to-j/hawthorn/index.html</link>
+        </node>
+
+
+       <node id="whitebeams">
+          <terminal_node>true</terminal_node>
+          <name>Whitebeams</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/whitebeam/index.html</link>
+        </node>
+
+
+       <node id="fig">
+          <terminal_node>true</terminal_node>
+          <name>Fig</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/f-to-j/fig/index.html</link>
+        </node>
+
+
+       <node id="mulberry">
+          <terminal_node>true</terminal_node>
+          <name>Mulberry</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/l-to-o/mulberry/index.html</link>
+        </node>
+
+
+       <node id="maidenhair_tree">
+          <terminal_node>true</terminal_node>
+          <name>Maidenhair tree</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/l-to-o/maidenhair/index.html</link>
+        </node>
+
+
+       <node id="cotoneasters">
+          <terminal_node>true</terminal_node>
+          <name>Cotoneasters</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cotoneaster/index.html</link>
+        </node>
+
+
+       <node id="portugal_laurel">
+          <terminal_node>true</terminal_node>
+          <name>portugal laurel</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+
+       <node id="strawberry_tree">
+          <terminal_node>true</terminal_node>
+          <name>Strawberry tree</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="rhododendrons">
+          <terminal_node>true</terminal_node>
+          <name>Rhododendrons</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="evergreen_magnolias">
+          <terminal_node>true</terminal_node>
+          <name>Evergreen magnolias</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="cherry_laurel">
+          <terminal_node>true</terminal_node>
+          <name>Cherry laurel</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="bay">
+          <terminal_node>true</terminal_node>
+          <name>Bay</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="hollies">
+          <terminal_node>true</terminal_node>
+          <name>Hollies</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="evergreen_oak">
+          <terminal_node>true</terminal_node>
+          <name>Evergreen oak</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+
+       <node id="rowan_white">
+          <terminal_node>true</terminal_node>
+          <name>Rowan with white, pink or crimson fruit</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="rowan_orange">
+          <terminal_node>true</terminal_node>
+          <name>Rowans with orange or vermillion fruit</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="service_trees">
+          <terminal_node>true</terminal_node>
+          <name>Service trees</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+        
+
+       <node id="pride_of_india">
+          <terminal_node>true</terminal_node>
+          <name>Pride-of-India</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+        
+       <node id="tree_of_heaven">
+          <terminal_node>true</terminal_node>
+          <name>Tree-of-heaven</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="pagoda_tree">
+          <terminal_node>true</terminal_node>
+          <name>Pagoda tree</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="walnuts">
+          <terminal_node>true</terminal_node>
+          <name>Walnuts</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>   
+
+       <node id="false_acacia">
+          <terminal_node>true</terminal_node>
+          <name>False acacia</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>   
+       
+       <node id="stags_horn_sumach">
+          <terminal_node>true</terminal_node>
+          <name>Stag's horn sumach</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>        
+
+       <node id="laburnums">
+          <terminal_node>true</terminal_node>
+          <name>Laburnums</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>        
+
+       <node id="sycamore">
+          <terminal_node>true</terminal_node>
+          <name>Sycamore</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="non_maple_sycamore">
+          <terminal_node>true</terminal_node>
+          <name>Maples(other than sycamore)</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="indian_bean_tree">
+          <terminal_node>true</terminal_node>
+          <name>Indian bean tree</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="cornelian_cherry">
+          <terminal_node>true</terminal_node>
+          <name>Cornelian cherry</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="eucalyptus">
+          <terminal_node>true</terminal_node>
+          <name>Eucalyptus</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="spindles">
+          <terminal_node>true</terminal_node>
+          <name>Spindles</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+
+       <node id="mannah_ash">
+          <terminal_node>true</terminal_node>
+          <name>Mannah ash</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>  
+
+       <node id="ash">
+          <terminal_node>true</terminal_node>
+          <name>Ash</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>  
+
+       <node id="ashleaf_maple">
+          <terminal_node>true</terminal_node>
+          <name>Ashleaf maple</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>  
+   
+       <node id="elder">
+          <terminal_node>true</terminal_node>
+          <name>elder</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>         
+  
+        
+       <node id="horse_chestnuts">
+          <terminal_node>true</terminal_node>
+          <name>Horse chestnuts</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>         
+
+       <node id="junipers">
+          <terminal_node>true</terminal_node>
+          <name>Junipers</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node> 
+      
+ 
+       <node id="pines_5_needled">
+          <terminal_node>true</terminal_node>
+          <name>Five-needled pines</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node> 
+      
+       <node id="pines_3_needled">
+          <terminal_node>true</terminal_node>
+          <name>Three-needled pines</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+      
+        
+       <node id="pines_2_needled">
+          <terminal_node>true</terminal_node>
+          <name>Two-needled pines</name>
+          <image></image>
+          <description></description>
+          <latin_name></latin_name>
+          <link></link>
+        </node>
+        
+       <node id="hemlock_spruces">
+          <terminal_node>true</terminal_node>
+          <name>Hemlock Spruces</name>
+          <image>ic_launcher</image>
+          <image_attribution>http://test/</image_attribution>
+          <image_src>http://www.test/</image_src>
+          <description>A spruce is a tree of the genus Picea, a genus of about 35 species of coniferous evergreen trees in the Family Pinaceae, found in the northern temperate and boreal (taiga) regions of the earth. Spruces are large trees, from 20–60 metres (66–200 ft) tall when mature, and can be distinguished by their whorled branches and conical form.</description>
+          <latin_name>Tsuga(genus)</latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/f-to-j/hemlock-spruce/index.html</link>
+        </node>
+
+
+       <node id="spruces">
+          <terminal_node>true</terminal_node>
+          <name>Spruces</name>
+          <image>spruces</image>
+          <image_attribution>http://www.flickr.com/photos/axelkr/</image_attribution>
+          <image_src>http://www.flickr.com/photos/axelkr/4663730627/</image_src>
+          <description>A spruce is a tree of the genus Picea, a genus of about 35 species of coniferous evergreen trees in the Family Pinaceae, found in the northern temperate and boreal (taiga) regions of the earth. Spruces are large trees, from 20–60 metres (66–200 ft) tall when mature, and can be distinguished by their whorled branches and conical form.</description>
+          <latin_name>Picea(genus)</latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/spruce/index.html</link>
+        </node>
+        
+
+       <node id="firs">
+          <terminal_node>true</terminal_node>
+          <name>Firs</name>
+          <image></image>
+          <image_attribution></image_attribution>
+          <image_src></image_src>
+	      <description>Fir(Abies) is a genus of 48–55 species of evergreen coniferous tree in the family Pinaceae. It is found through much of North and Central America, Europe, Asia, and North Africa, occurring in mountains over most of the range. Firs are most closely related to the genus Cedrus (cedar); Douglas-firs are not true firs, being of the genus Pseudotsuga.</description>
+          <latin_name>Abies(genus)</latin_name>
+		  <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/f-to-j/fir/index.html</link>
+        </node>
+        
+       <node id="yew">
+          <terminal_node>true</terminal_node>
+          <name>Yew</name>
+          <image>yew</image>
+          <image_attribution>http://www.flickr.com/photos/jonorchs/</image_attribution>
+          <image_src>http://www.flickr.com/photos/jonorchs/2984087198/in/photostream</image_src>
+		  <description>Taxus baccata is a conifer native to western, central and southern Europe, northwest Africa, northern Iran and southwest Asia.[1] It is the tree originally known as yew, though with other related trees becoming known, it may be now known as the English yew, or European yew.</description>
+          <latin_name>Taxus baccata</latin_name>
+		  <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/yew/index.html</link>
+        </node>
+        
+        <node id="cypresses">
+          <terminal_node>true</terminal_node>
+          <name>Cypresses (including false cypresses)</name>
+          <image>cypress</image>
+          <image_attribution>http://www.flickr.com/photos/letorri/</image_attribution>
+          <image_src>http://www.flickr.com/photos/letorri/4625981065/</image_src>
+		  <description>Evergreen. Shaped like cones or columns, with generally up-swept branches hiding much of the trunk.</description>
+          <latin_name>Various genera</latin_name>
+		  <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/c-to-e/cypress/index.html</link>
+        </node>
+        
+        <node id="wellingtonia">
+          <terminal_node>true</terminal_node>
+          <name>Wellingtonia</name>
+          <image>wellingtonia</image>
+          <image_src>wellingtonia</image_src>
+          <image_src>www.flickr.com/photos/peripathetic/4694505670/</image_src>
+          <image_attribution>www.flickr.com/photos/peripathetic/</image_attribution>
+		  <description>Evergreen. Reaching 90m when full grown, with the trunk up to 7m in diameter. The crown is narrowly cone-shaped, with down-swept branches.</description>
+          <latin_name>Sequoiadendron giganteum</latin_name>
+		  <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/wellingtonia/index.html</link>
+        </node>
+         
+        
+        <node id="western_red_cedar">
+          <terminal_node>true</terminal_node>
+          <name>Western Red Cedar</name>
+          <image>western_red_cedar</image>
+          <image_attribution>http://www.flickr.com/people/22168167@N00</image_attribution>
+          <image_src>http://en.wikipedia.org/wiki/File:Thuja_plicata_Vancouver.jpg</image_src>
+          <description>It is a large to very large tree, ranging up to 65–70 metres (213–230 ft) tall and 3–4 metres (9.8–13 ft) in trunk diameter, exceptionally even larger. Trees growing in the open may have a crown that reaches the ground, whereas trees densely spaced together will only exhibit a crown at the top, where light can reach the leaves.[4] It is long-lived; some individuals can live well over a thousand years, with the oldest verified being 1,460 years.</description>
+          <latin_name>Thuja plicata</latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/western-red-cedar/index.html</link>
+        </node>
+         
+         
+       <node id="tamarisks">
+          <terminal_node>true</terminal_node>
+          <name>Tamarisks</name>
+          <image>tamarisk</image>
+          <image_attribution>http://www.flickr.com/photos/tylluan/</image_attribution>
+          <image_src>http://www.flickr.com/photos/tylluan/533345738/</image_src>
+          <description>Slender and rather twiggy, often with several stems. They are deciduous.</description>
+          <latin_name>Tamarix species</latin_name>
+          <link>http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/s-to-y/tamarisk/index.html</link>
+       </node>
+         
+      <node id="monkey_puzzle">
+          <terminal_node>true</terminal_node>
+          <name>Monkey Puzzle</name>
+          <image>monkey_puzzle</image>
+          <image_attribution>http://www.flickr.com/photos/krispeac/</image_attribution>
+          <description>Araucaria araucana (popularly called the monkey puzzle tree or monkey tail tree) is an evergreen tree growing to 40 metres (130 ft) tall with a 2 metres (7 ft) trunk diameter. The tree is native to central and southern Chile, western Argentina, and southern Brazil. Araucaria araucana is the hardiest species in the conifer genus Araucaria. Because of the species's great age it is sometimes described as a living fossil.</description>
+          <latin_name>Araucaria araucana</latin_name>
+          <link>www.wikipedia.org/wiki/Araucaria_araucana</link>
+      </node>
+<!--  End of Natural History Museum Key -->    
+
+
+<!--  Extension of key by NR Horner -->      
+        <node id="oaks">
+            <terminal_node>false</terminal_node>
+            <info>
+                <info_title>Oaks</info_title>
+                <info_text>There are around 500 species of Oak in the northern hemisphere. The two most common in Britain are listed here. Follow the link to find information on other species</info_text>
+            	<info_link>http://www.british-trees.com/treeguide/oaks</info_link>
+            </info>
+            <question>
+                <text>Shoots and buds are hairless. leaves deeply-lobed</text>
+                <nextnode>pendunculate_oak</nextnode>
+                <image>ic_launcher</image>
+            </question>
+            <question>
+                <text>Buds are brown-orange with white, long hairs. Acorns egg-shped, stalkless, sit directly on twig in small clusters</text>
+                <nextnode>sessile_oak</nextnode>
+                <image>ic_launcher</image>
+            </question>
+        </node> 
+        
+       <!--  NR Horner terminal nodes -->
+
+      <node id="pendunculate_oak">
+          <terminal_node>true</terminal_node>
+          <name>Pendunculate (English) oak</name>
+          <image></image>
+          <description>A large spreading tree with a dense grown of heavy branches</description>
+          <latin_name>Quercus robur</latin_name>
+          <link></link>
+      </node>
+
+      
+      <node id="sessile_oak">
+          <terminal_node>true</terminal_node>
+          <name>Sessile oak</name>
+          <image></image>
+          <description>A sturdy tree with a domed shape. The bark is grey-brown with vertical fissures</description>
+          <latin_name>Quercus petraea</latin_name>
+          <link></link>
+      </node>
+<!--  End of key extension by NR Horner -->  
+
+</uktrees>
